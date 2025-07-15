@@ -6,7 +6,7 @@
 
 Soy un **Desarrollador Backend .NET** apasionado por construir soluciones robustas, escalables y mantenibles. Me especializo en la aplicación de principios como **Arquitectura Limpia** y **Domain-Driven Design (DDD)** para crear software de alta calidad.
 
-- 🌱 Actualmente estoy aprendiendo más sobre **Azure y arquitecturas en la nube**.
+- 🌱 Actualmente estoy aprendiendo más sobre **Google Cloud y arquitecturas en la nube**.
 - 🔭 Estoy trabajando en un proyecto personal de **[Describe tu proyecto aquí, ej: una API para gestión de finanzas]**.
 - 📫 Cómo contactarme: **[nain9code@gmail.com]**
 - ⚡ Dato curioso: [Añade algo interesante sobre ti, ej: Me encanta el café y el código limpio.]
@@ -32,8 +32,8 @@ Aquí hay un vistazo a mi actividad en GitHub:
 
 <p align="center">
   <a href="https://github.com/NainrDev">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=NainrDev&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NainrDev&layout=compact&langs_count=8&theme=dracula"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Nain9Dev&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nain9Dev&layout=compact&langs_count=8&theme=dracula"/>
   </a>
 </p>
 
