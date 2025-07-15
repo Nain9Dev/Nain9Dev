@@ -8,7 +8,7 @@ Soy un **Desarrollador Backend .NET** apasionado por construir soluciones robust
 
 - 🌱 Actualmente estoy aprendiendo más sobre **Azure y arquitecturas en la nube**.
 - 🔭 Estoy trabajando en un proyecto personal de **[Describe tu proyecto aquí, ej: una API para gestión de finanzas]**.
-- 📫 Cómo contactarme: **[tu.email.profesional@ejemplo.com]**
+- 📫 Cómo contactarme: **[nain9code@gmail.com]**
 - ⚡ Dato curioso: [Añade algo interesante sobre ti, ej: Me encanta el café y el código limpio.]
 
 ---
