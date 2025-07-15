@@ -1,47 +1,51 @@
-# Hi there, I'm Nain!
+# Hi there, I'm Nain! 👋
 
-<a href="https://www.linkedin.com/in/aitor-nain-mendoza-vallejo/">
-  <img align="right" alt="Nainero's Profile Picture" width="200px" src="https://avatars.githubusercontent.com/u/108929639?v=4" />
+<a href="https://www.linkedin.com/in/aitor-nain-mendoza-vallejo/" target="_blank">
+  <img align="right" alt="Nain's Profile Picture" width="200px" src="https://avatars.githubusercontent.com/u/108929639?v=4" />
 </a>
 
-Soy un **Desarrollador Backend .NET** apasionado por construir soluciones robustas, escalables y mantenibles. Me especializo en la aplicación de principios como **Arquitectura Limpia** y **Domain-Driven Design (DDD)** para crear software de alta calidad.
+I'm a **.NET Developer** specializing in building scalable web applications and APIs with **ASP.NET Core**. I'm passionate about creating robust and maintainable solutions by applying principles like **Clean Architecture** and **Domain-Driven Design (DDD)**.
 
-- 🌱 Actualmente estoy aprendiendo más sobre **Google Cloud y arquitecturas en la nube**.
-- 🔭 Estoy trabajando en un proyecto personal de **[Describe tu proyecto aquí, ej: una API para gestión de finanzas]**.
-- 📫 Cómo contactarme: **[nain9code@gmail.com]**
-- ⚡ Dato curioso: [Añade algo interesante sobre ti, ej: Me encanta el café y el código limpio.]
+* 🌱 I’m currently diving deeper into **Google Cloud** and cloud-native architectures.
+* 🔭 I’m currently working on **a RESTful API for a personal project.**
+* 📫 How to reach me: **nain9code@gmail.com**
+* ⚡ Fun fact: I believe coffee is the best compiler for turning ideas into code. ☕
 
 ---
 
-## 🛠️ Mi Stack Tecnológico
+## 🛠️ My Tech Stack
 
-Estas son algunas de las tecnologías y herramientas con las que trabajo regularmente:
+Here are some of the technologies and tools I work with to bring ideas to life:
 
+![ASP.NET Core](https://img.shields.io/badge/asp.net%20core-6E128C?style=for-the-badge&logo=dotnet&logoColor=white)
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Azure](https://img.shields.io/badge/azure-%230078D4.svg?style=for-the-badge&logo=microsoft%20azure&logoColor=white)
 
 ---
 
-## 📊 Mis Estadísticas de GitHub
-
-Aquí hay un vistazo a mi actividad en GitHub:
+## 📊 My GitHub Stats
 
 <p align="center">
-  <a href="https://github.com/Nain9Dev">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Nain9Dev&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nain9Dev&layout=compact&langs_count=8&theme=dracula"/>
+  <a href="https://github.com/Nain9Dev" target="_blank">
+    <img height="170em" src="https://github-readme-stats.vercel.app/api?username=Nain9Dev&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+    <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nain9Dev&layout=compact&langs_count=8&theme=dracula"/>
   </a>
 </p>
 
 ---
 
-## 🔗 Conectemos
+## 🔗 Let's Connect
 
-¡Me encantaría conectar contigo! No dudes en contactarme.
+I'd love to connect with you! Feel free to reach out.
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aitor-nain-mendoza-vallejo/)
-[![portfolio](https://img.shields.io/badge/mi_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://nain9dev.github.io/)
+<p align="left">
+<a href="https://www.linkedin.com/in/aitor-nain-mendoza-vallejo/" target="_blank">
+    <img src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+</a>
+<a href="https://nain9dev.github.io/" target="_blank">
+    <img src="https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Portfolio Badge"/>
+</a>
+</p>
