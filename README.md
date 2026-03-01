@@ -6,7 +6,7 @@ Construyo APIs y backends en .NET orientados a negocio: código mantenible (Clea
 
 ---
 
-## Servicios (lo que puedo entregar)
+## Servicios
 - **APIs REST en ASP.NET Core** (diseño, implementación, versionado y documentación).
 - **Arquitectura y refactor** hacia Clean Architecture / DDD (reducción de deuda técnica).
 - **SQL Server**: consultas, índices, procedimientos almacenados, auditoría de rendimiento.
@@ -15,7 +15,7 @@ Construyo APIs y backends en .NET orientados a negocio: código mantenible (Clea
 
 ---
 
-## Cómo trabajo (simple y predecible)
+## Cómo trabajo
 1. **Brief técnico (30–45 min):** objetivo, restricciones, datos, plazos.
 2. **Diseño:** contrato de API, modelo de dominio y esquema de datos.
 3. **Implementación:** PRs pequeños, logs, tests y documentación mínima útil.
