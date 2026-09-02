@@ -1,61 +1,93 @@
-# Aitor Nain Mendoza Vallejo — Backend & API Solutions (.NET | Python)
-**Madrid, España | Desarrollador Backend & Consultor de Software de Negocio**
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2563eb&center=true&vCenter=true&width=600&lines=Freelance+Software+Architect;Reliable+Backend+Solutions;.NET+%7C+Python+%7C+TypeScript;Deterministic+Validation+%26+AI" alt="Typing SVG" />
+  
+  <p align="center">
+    <strong>Madrid, Spain | Backend Developer & Business Software Consultant</strong>
+  </p>
 
-[![Web Portfolio](https://img.shields.io/badge/Portafolio_Oficial-naindev.com-2563eb?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.naindev.com/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aitor_Nain-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aitor-nain-mendoza-vallejo/)
-[![Email](https://img.shields.io/badge/Contacto_Directo-contact@naindev.com-10B981?style=for-the-badge&logo=mail.ru&logoColor=white)](mailto:contact@naindev.com)
-
----
-
-## Objetivo y Propuesta de Valor
-
-> **Trabajo principalmente con APIs, lógica de negocio y bases de datos. En este portfolio comparto proyectos personales y demos que muestran lo que sé hacer y lo que sigo aprendiendo.**
-> Mi objetivo principal es ayudar a empresas, startups y profesionales a **construir, escalar y refactorizar software de negocio los fines de semana**, asegurando máxima calidad arquitectónica, persistencia robusta y código fácil de mantener y evolucionar.
-
-### Especialidades para Proyectos y Consultoría de Fin de Semana:
-- **Desarrollo y Arquitectura de APIs REST (.NET 10 & Python 3.12):** Diseño por contrato, JWT, observabilidad, control de concurrencia avanzado (ETag, `rowversion`) y versionado seguro.
-- **Clean Architecture & Domain-Driven Design (DDD):** Refactorización de código heredado, eliminación de deuda técnica y separación estricta entre dominio y capas de infraestructura (EF Core 10, Dapper, SQLAlchemy).
-- **Optimización de Bases de Datos (SQL Server & SQLite):** Consultas T-SQL de alto rendimiento, índices, procedimientos almacenados, auditoría y aislamiento multitenant.
-- **Integraciones Cloud & Asincronía (Coste Eficiente):** Implementación de microservicios desatendidos (Workers), colas de mensajería (RabbitMQ / CloudAMQP) y despliegues optimizados en Azure App Service, Streamlit Cloud y GitHub Pages.
+  <p align="center">
+    <a href="https://www.naindev.com/"><img src="https://img.shields.io/badge/Official_Portfolio-naindev.com-2563eb?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Web Portfolio"></a>
+    <a href="https://www.linkedin.com/in/aitor-nain-mendoza-vallejo/"><img src="https://img.shields.io/badge/LinkedIn-Aitor_Nain-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+    <a href="mailto:contact@naindev.com"><img src="https://img.shields.io/badge/Direct_Contact-contact@naindev.com-10B981?style=for-the-badge&logo=mail.ru&logoColor=white" alt="Email"></a>
+  </p>
+</div>
 
 ---
 
-## Escaparate de Proyectos & Demos en Vivo (1-Clic)
+## 🎯 Value Proposition
 
-Todos mis desarrollos se construyen bajo la premisa de la evidencia verificable. Ningún proyecto requiere descargas complejas ni configuraciones locales; puedes probarlos en tiempo real sobre la nube o revisar su arquitectura directamente:
+> **I specialize in APIs, business logic, and databases. This portfolio houses my personal projects and technical demos, reflecting my expertise and continuous learning.**
 
-| Proyecto / Dominio | Stack Técnico | Estado & Evidencia | Acceso Rápido |
+My primary objective is to help companies, startups, and professionals **build, scale, and refactor business software over the weekends**, ensuring maximum architectural quality, robust persistence, and highly maintainable code.
+
+### Core Expertise for Weekend Consulting & Projects:
+- **REST API Development & Architecture (.NET 10 & Python 3.12):** Design by Contract, JWT, observability, advanced concurrency control (ETag, `rowversion`), and secure versioning.
+- **Clean Architecture & Domain-Driven Design (DDD):** Legacy code refactoring, technical debt elimination, and strict separation between domain and infrastructure layers (EF Core 10, Dapper, SQLAlchemy).
+- **Database Optimization (SQL Server & SQLite):** High-performance T-SQL queries, indexing, stored procedures, auditing, and multitenant isolation.
+- **Cloud Integrations & Asynchronous processing (Cost-Efficient):** Implementation of unattended microservices (Workers), message queues (RabbitMQ / CloudAMQP), and optimized deployments on Azure App Service, Streamlit Cloud, and GitHub Pages.
+
+---
+
+## 🚀 Live Projects & Demos (1-Click)
+
+All my developments are built on the premise of verifiable evidence. No complex downloads or local configurations are required; you can test them in real-time in the cloud or review their architecture directly:
+
+| Project / Domain | Tech Stack | Status & Evidence | Quick Access |
 | :--- | :--- | :--- | :--- |
-| **[API de Operaciones de Pólizas](https://github.com/Nain9Dev/API-Gestion-Financiera)** | `.NET 10` `EF Core 10` `SQL Server` `Clean Architecture` `Azure` | **Demo HTTPS en vivo.** Gestión del ciclo `Draft -> Active -> Cancelled`, aislamiento por organización y control de concurrencia ETag. | [**Probar API en Azure**](https://nain-policy-demo-api.azurewebsites.net/demo/)<br>[Ver Repositorio](https://github.com/Nain9Dev/API-Gestion-Financiera) |
-| **[Servicio de Notificaciones Cloud](https://github.com/Nain9Dev/Microservicio-Notificaciones)** | `.NET 10` `MassTransit` `RabbitMQ (CloudAMQP)` `MailKit` | **Simulación en vivo.** Microservicio desacoplado conectando a clúster RabbitMQ con procesamiento en <350ms y despacho de emails HTML. | [**Abrir Demo Web**](https://www.naindev.com/#demo-notificaciones)<br>[Ver Repositorio](https://github.com/Nain9Dev/Microservicio-Notificaciones) |
-| **[Sistema Oposiciones TAI](https://github.com/Nain9Dev/SistemaOposicionesTAI)** | `.NET 10` `Dapper` `T-SQL Stored Procedures` `SPA Responsive` | **Demo Interactiva.** Plataforma de estudio real con cronómetro de examen INAP, baremo oficial (+1/-0,33) y analítica en `localStorage`. | [**Probar App en Vivo**](https://www.naindev.com/SistemaOposicionesTAI/)<br>[Ver Repositorio](https://github.com/Nain9Dev/SistemaOposicionesTAI) |
-| **[Gestión Autoescuela NainDev](https://github.com/Nain9Dev/Gestion-Autoescuela-Python)** | `Python 3.12` `Pydantic v2` `Streamlit` `SQLAlchemy` `SQLite` | **Demo Web 24/7.** Dashboard contable y operativo para autoescuelas. Imputa clases, calcula saldos y emite facturas oficiales descargables en PDF. | [**Probar Demo en Cloud**](https://gestion-autoescuela-nain9dev.streamlit.app/)<br>[Ver Repositorio](https://github.com/Nain9Dev/Gestion-Autoescuela-Python) |
-| **[Pong Arcade Canvas](https://www.naindev.com/pong-game/)** | `HTML5` `Vanilla CSS` `JavaScript` `Canvas API` | **Juego en Navegador.** Prototipo dinámico con físicas en tiempo real, múltiples niveles de IA y modo local para dos jugadores. | [**Jugar en Navegador**](https://www.naindev.com/pong-game/)<br>[Ver Código](https://github.com/Nain9Dev/nain9dev.github.io/tree/main/pong-game) |
+| **[Financial Policy Operations API](https://github.com/Nain9Dev/API-Gestion-Financiera)** | `.NET 10` `EF Core 10` `SQL Server` `Clean Architecture` `Azure` | **Live HTTPS Demo.** Manages the `Draft -> Active -> Cancelled` lifecycle, organizational isolation, and ETag concurrency control. | [**Test API on Azure**](https://nain-policy-demo-api.azurewebsites.net/demo/)<br>[View Repository](https://github.com/Nain9Dev/API-Gestion-Financiera) |
+| **[Cloud Notifications Service](https://github.com/Nain9Dev/Microservicio-Notificaciones)** | `.NET 10` `MassTransit` `RabbitMQ (CloudAMQP)` `MailKit` | **Live Simulation.** Decoupled microservice connecting to a RabbitMQ cluster with <350ms processing and HTML email dispatching. | [**Open Web Demo**](https://www.naindev.com/#demo-notificaciones)<br>[View Repository](https://github.com/Nain9Dev/Microservicio-Notificaciones) |
+| **[TAI Civil Service Exam System](https://github.com/Nain9Dev/SistemaOposicionesTAI)** | `.NET 10` `Dapper` `T-SQL Procedures` `Responsive SPA` | **Interactive Demo.** Real study platform with official INAP exam timer, official grading (+1/-0.33), and `localStorage` analytics. | [**Test Live App**](https://www.naindev.com/SistemaOposicionesTAI/)<br>[View Repository](https://github.com/Nain9Dev/SistemaOposicionesTAI) |
+| **[NainDev Driving School Management](https://github.com/Nain9Dev/Gestion-Autoescuela-Python)** | `Python 3.12` `Pydantic v2` `Streamlit` `SQLAlchemy` `SQLite` | **24/7 Web Demo.** Accounting and operational dashboard. Logs classes, calculates balances, and issues official downloadable PDF invoices. | [**Test Cloud Demo**](https://gestion-autoescuela-nain9dev.streamlit.app/)<br>[View Repository](https://github.com/Nain9Dev/Gestion-Autoescuela-Python) |
+| **[Pong Arcade Canvas](https://www.naindev.com/pong-game/)** | `HTML5` `Vanilla CSS` `JavaScript` `Canvas API` | **Browser Game.** Dynamic prototype with real-time physics, multiple AI levels, and a local two-player mode. | [**Play in Browser**](https://www.naindev.com/pong-game/)<br>[View Code](https://github.com/Nain9Dev/nain9dev.github.io/tree/main/pong-game) |
 
 ---
 
-## Stack Arquitectónico y Tecnologías
+## 🏗️ Tech Stack & Architecture
+
+<div align="center">
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
+  <img src="https://img.shields.io/badge/.NET_10-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python_3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <br />
+  <img src="https://img.shields.io/badge/SQL_Server-CC292B?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white" />
+  <img src="https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" />
+</div>
+
+<br/>
 
 ```text
        ┌───────────────────────────────┐
-       │   APIs & Aplicaciones Web     │ ── ASP.NET Core 10 | Python FastAPI / Streamlit | Vanilla Web
+       │   APIs & Web Applications     │ ── ASP.NET Core 10 | Python FastAPI / Streamlit | Vanilla Web
        └───────────────┬───────────────┘
                        ▼
        ┌───────────────────────────────┐
-       │   Capa de Dominio & Negocio   │ ── Clean Architecture | DDD | Pydantic v2 | Patrón de Contratos
+       │   Domain & Business Layer     │ ── Clean Architecture | DDD | Pydantic v2 | Contract Pattern
        └───────────────┬───────────────┘
                        ▼
        ┌───────────────────────────────┐
-       │  Persistencia & Asincronía    │ ── SQL Server (T-SQL) | SQLite | EF Core 10 | Dapper | RabbitMQ
+       │  Persistence & Asynchrony     │ ── SQL Server (T-SQL) | SQLite | EF Core 10 | Dapper | RabbitMQ
        └───────────────────────────────┘
 ```
 
 ---
 
-## ¿Tienes una idea o un backend que mejorar este fin de semana?
+## 📈 GitHub Analytics
 
-Si buscas un desarrollador confiable para impulsar una funcionalidad crítica, optimizar consultas pesadas en SQL Server o construir desde cero el cerebro relacional de tu producto con código limpio y mantenible, escríbeme y revisamos el alcance en un brief rápido de 30 minutos:
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Nain9Dev&show_icons=true&theme=transparent&hide_border=true&title_color=2563eb&icon_color=2563eb" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nain9Dev&layout=compact&theme=transparent&hide_border=true&title_color=2563eb" alt="Top Languages" />
+</div>
 
-- **Portafolio Interactivo:** [www.naindev.com](https://www.naindev.com/)
-- **Correo Electrónico:** [contact@naindev.com](mailto:contact@naindev.com)
-- **LinkedIn:** [Aitor Nain Mendoza Vallejo](https://www.linkedin.com/in/aitor-nain-mendoza-vallejo/)
+---
+
+## 🤝 Let's build something reliable this weekend
+
+If you are looking for a reliable developer to drive a critical feature, optimize heavy SQL Server queries, or build the relational brain of your product from scratch with clean and maintainable code, write to me and we'll review the scope in a quick 30-minute brief:
+
+- 🌐 **Interactive Portfolio:** [www.naindev.com](https://www.naindev.com/)
+- ✉️ **Email:** [contact@naindev.com](mailto:contact@naindev.com)
+- 💼 **LinkedIn:** [Aitor Nain Mendoza Vallejo](https://www.linkedin.com/in/aitor-nain-mendoza-vallejo/)
