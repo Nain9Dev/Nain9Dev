@@ -14,7 +14,7 @@
 
 ---
 
-## 🎯 Value Proposition
+## Value Proposition
 
 > **I specialize in APIs, business logic, and databases. This portfolio houses my personal projects and technical demos, reflecting my expertise and continuous learning.**
 
@@ -28,7 +28,7 @@ My primary objective is to help companies, startups, and professionals **build, 
 
 ---
 
-## 🚀 Live Projects & Demos (1-Click)
+## Live Projects & Demos (1-Click)
 
 All my developments are built on the premise of verifiable evidence. No complex downloads or local configurations are required; you can test them in real-time in the cloud or review their architecture directly:
 
@@ -42,7 +42,7 @@ All my developments are built on the premise of verifiable evidence. No complex 
 
 ---
 
-## 🏗️ Tech Stack & Architecture
+## Tech Stack & Architecture
 
 <div align="center">
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
@@ -75,7 +75,7 @@ All my developments are built on the premise of verifiable evidence. No complex 
 
 ---
 
-## 📈 GitHub Analytics
+## GitHub Analytics
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Nain9Dev&show_icons=true&theme=transparent&hide_border=true&title_color=2563eb&icon_color=2563eb" alt="GitHub Stats" />
@@ -84,10 +84,10 @@ All my developments are built on the premise of verifiable evidence. No complex 
 
 ---
 
-## 🤝 Let's build something reliable this weekend
+## Let's build something reliable this weekend
 
 If you are looking for a reliable developer to drive a critical feature, optimize heavy SQL Server queries, or build the relational brain of your product from scratch with clean and maintainable code, write to me and we'll review the scope in a quick 30-minute brief:
 
-- 🌐 **Interactive Portfolio:** [www.naindev.com](https://www.naindev.com/)
-- ✉️ **Email:** [contact@naindev.com](mailto:contact@naindev.com)
-- 💼 **LinkedIn:** [Aitor Nain Mendoza Vallejo](https://www.linkedin.com/in/aitor-nain-mendoza-vallejo/)
+- **Interactive Portfolio:** [www.naindev.com](https://www.naindev.com/)
+- **Email:** [contact@naindev.com](mailto:contact@naindev.com)
+- **LinkedIn:** [Aitor Nain Mendoza Vallejo](https://www.linkedin.com/in/aitor-nain-mendoza-vallejo/)
