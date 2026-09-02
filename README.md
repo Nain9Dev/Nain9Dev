@@ -75,15 +75,6 @@ All my developments are built on the premise of verifiable evidence. No complex 
 
 ---
 
-## GitHub Analytics
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nain9Dev&show_icons=true&theme=transparent&hide_border=true&title_color=2563eb&icon_color=2563eb" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nain9Dev&layout=compact&theme=transparent&hide_border=true&title_color=2563eb" alt="Top Languages" />
-</div>
-
----
-
 ## Let's build something reliable this weekend
 
 If you are looking for a reliable developer to drive a critical feature, optimize heavy SQL Server queries, or build the relational brain of your product from scratch with clean and maintainable code, write to me and we'll review the scope in a quick 30-minute brief:
