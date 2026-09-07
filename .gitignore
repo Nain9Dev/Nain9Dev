@@ -1,0 +1,51 @@
+# =============================================================================
+# Nain9Dev Profile - Git Ignore
+# =============================================================================
+
+# AI Assistant & Agent Artifacts
+.agents/
+.gemini/
+.claude/
+.cursor/
+.cursorrules
+.windsurf/
+.windsurfrules
+.copilot/
+copilot/
+.aider*
+aider.chat.*
+.cortex/
+.devin/
+.continue/
+.chat/
+*.prompt.md
+*scratchpad*
+.system_generated/
+brain/
+
+# Environment Configurations & Secrets
+.env
+.env.*
+*.env
+*.local
+*.secret
+*.key
+*.pem
+*.cert
+*.crt
+credentials.json
+client_secret*.json
+
+# OS Metadata
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Editors & IDEs
+.vscode/
+.idea/
+*.swp
+*~
