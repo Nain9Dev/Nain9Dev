@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2563eb&center=true&vCenter=true&width=750&lines=Freelance+Full+Stack+Software+Architect;Python+%26+.NET+Backends+%7C+Vue+3+Frontends;Deterministic+Validation+%26+Trustworthy+AI;MCP+%7C+Open+Core+%7C+Immutable+Contracts" alt="Freelance Full Stack Software Architect" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2563eb&center=true&vCenter=true&width=750&lines=Freelance+Full+Stack+Software+Architect;Python+%26+.NET+Backends+%7C+Vue+3+Frontends;Deterministic+Product+Conformance+%26+Trustworthy+AI;MCP+%7C+Open+Core+%7C+Immutable+Contracts" alt="Freelance Full Stack Software Architect" />
 
   <p align="center">
     <strong>Aitor Nain Mendoza Vallejo (naindev)</strong><br />
@@ -17,7 +17,7 @@
 
 ## About
 
-I am a full stack software architect with a backend focus. I specialize in **critical systems, trustworthy AI, and deterministic validation**, including the validation of 3D models.
+I am a full stack software architect with a backend focus. I specialize in **critical systems, trustworthy AI, and deterministic conformance**: architectures that validate products of any domain against explicit, versioned specifications, starting with 3D assets.
 
 I deliver the complete product (data model, backend, and frontend) and integrate AI through **human-in-the-loop MCP tooling**, on **Open Core** architectures with clean code and immutable contracts.
 
@@ -34,8 +34,11 @@ I deliver the complete product (data model, backend, and frontend) and integrate
 
 My main work runs under private commercial contracts, so the code is not public. These are the systems I lead, in order of focus, described by architecture and stack only:
 
-- **Multi-Domain Deterministic Conformance Chassis**: Python 3.12 (`uv` monorepo), FastAPI, Pydantic v2, PostgreSQL, Model Context Protocol (MCP), pytest & Hypothesis.
-  - *Core capabilities*: Binary stream parsing and byte-level validation of real-time 3D asset containers (IEEE-754 little-endian chunk extraction), exact computational geometry invariants (2D UV winding, polygon clipping, watertight manifold verification, differential texel density scaling), reproducible dual-contract audit reporting (canonical JSON + Markdown), and stdio MCP tooling for AI subagents.
+- **Multi-Domain Deterministic Conformance Chassis (Open Core)**: Python 3.12 (`uv` monorepo), FastAPI, Pydantic v2, PostgreSQL, Model Context Protocol (MCP), pytest & Hypothesis, Docker, self-hosted CI.
+  - *Architecture*: A domain-agnostic conformance chassis that receives an artefact, identifies what it is, measures facts about it, proposes the objectives and profile that apply, validates it, directs its fail-closed correction, and emits a verdict that is reproducible byte-for-byte. Each market domain plugs in as a versioned profile from a frozen, persisted catalogue; the catalogue version is recorded in every verdict.
+  - *First profile, in production*: Real-time 3D assets (glTF/GLB). Binary stream parsing and byte-level container validation (IEEE-754 little-endian chunk extraction), exact computational geometry invariants (2D UV winding, polygon clipping, watertight manifold verification, differential texel density scaling), and a validate → repair → revalidate loop.
+  - *Next profile, specified*: Tabular fiscal documents (invoice arithmetic, mandatory legal fields, and tax ID check-digit algorithms), which proves the same engine works outside 3D.
+  - *Delivery*: Reproducible dual-contract audit reports (canonical JSON + human-readable Markdown), an HTTP service with OpenAPI, PostgreSQL persistence for stateful validation sessions, and stdio MCP tooling so AI agents run validations under human oversight.
 
 - **High-Concurrency Multi-Tenant Operations & Commercial Platform**: Python 3.12, FastAPI, PostgreSQL, async SQLAlchemy, Alembic, Vue 3, TypeScript, Pinia, Tailwind CSS, Web Push (VAPID), Docker.
   - *Core capabilities*: Zero-data-loss collaboration using entity `version` tracking and field-level merge resolution on HTTP 409 conflicts. Data integrity enforced by PostgreSQL primitives (`citext`, partial unique indexes, and atomic `activity_events` audit logging within single transactions). Accessible frontend (WCAG 2.2 AA, TipTap rich text, interactive 3D model viewers) and near-zero compute cost on self-hosted environments backed by local CI runner fleets.
@@ -127,7 +130,7 @@ Open-source projects with source code, automated tests, and live demos:
 
 ## Contact
 
-Open to freelance engagements in software architecture, backend engineering, legacy .NET modernization, and deterministic validation systems:
+Open to freelance engagements in software architecture, backend engineering, legacy .NET modernization, and deterministic conformance systems:
 
 - **Portfolio**: [www.naindev.com](https://www.naindev.com/)
 - **Email**: [contact@naindev.com](mailto:contact@naindev.com)
