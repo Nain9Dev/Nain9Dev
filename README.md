@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2563eb&center=true&vCenter=true&width=750&lines=Freelance+Full+Stack+Software+Architect;Python+%26+.NET+Backends+%7C+Vue+3+Frontends;Deterministic+Product+Conformance+%26+Trustworthy+AI;MCP+%7C+Open+Core+%7C+Immutable+Contracts" alt="Freelance Full Stack Software Architect" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2563eb&center=true&vCenter=true&width=750&lines=Full+Stack+Software+Architect;Python+%26+.NET+Backends+%7C+Vue+3+Frontends;Deterministic+Product+Conformance+%26+Trustworthy+AI;MCP+%7C+Open+Core+%7C+Immutable+Contracts" alt="Full Stack Software Architect" />
 
   <p align="center">
     <strong>Aitor Nain Mendoza Vallejo (naindev)</strong><br />
-    Madrid, Spain &bull; Freelance Full Stack Software Architect &bull; CTO at Contrast3D x NainDev
+    Madrid, Spain &bull; Full Stack Software Architect &bull; CTO at Contrast3D x NainDev
   </p>
 
   <p align="center">
@@ -30,9 +30,9 @@ I deliver the complete product (data model, backend, and frontend) and integrate
 
 ---
 
-## Current Work (Private Contracts)
+## Current Work (Private Code)
 
-My main work runs under private commercial contracts, so the code is not public. These are the systems I lead, in order of focus, described by architecture and stack only:
+My main work is not public. The first two systems I lead under my NainDev brand, outside working hours; the third is my full-time role as a .NET developer in the insurance sector. They are listed in order of focus and described by architecture and stack only:
 
 - **Multi-Domain Deterministic Conformance Chassis (Open Core)**: Python 3.12 (`uv` monorepo), FastAPI, Pydantic v2, PostgreSQL, Model Context Protocol (MCP), pytest & Hypothesis, Docker, self-hosted CI.
   - *Architecture*: A domain-agnostic conformance chassis that receives an artefact, identifies what it is, measures facts about it, proposes the objectives and profile that apply, validates it, directs its fail-closed correction, and emits a verdict that is reproducible byte-for-byte. Each market domain plugs in as a versioned profile from a frozen, persisted catalogue; the catalogue version is recorded in every verdict.
@@ -43,8 +43,8 @@ My main work runs under private commercial contracts, so the code is not public.
 - **High-Concurrency Multi-Tenant Operations & Commercial Platform**: Python 3.12, FastAPI, PostgreSQL, async SQLAlchemy, Alembic, Vue 3, TypeScript, Pinia, Tailwind CSS, Web Push (VAPID), Docker.
   - *Core capabilities*: Zero-data-loss collaboration using entity `version` tracking and field-level merge resolution on HTTP 409 conflicts. Data integrity enforced by PostgreSQL primitives (`citext`, partial unique indexes, and atomic `activity_events` audit logging within single transactions). Accessible frontend (WCAG 2.2 AA, TipTap rich text, interactive 3D model viewers) and near-zero compute cost on self-hosted environments backed by local CI runner fleets.
 
-- **Enterprise Backend Architecture & Legacy .NET Modernization**: C#, .NET Framework (4.7.2+) to modern .NET, ASP.NET Web API, Azure services, SQL Server, Clean/multi-tier architecture.
-  - *Core capabilities*: Maintenance, security hardening, and incremental modernization of mission-critical business backends. Integration layer orchestrating multiple third-party enterprise providers (payment gateways, digital signature APIs, financial scoring services, cloud storage, and automated transactional document generation).
+- **Insurance-Sector Backend & Legacy .NET Modernization (full-time role)**: C#, ASP.NET Core, .NET Framework (4.7.2+) to modern .NET, ASP.NET Web API, Azure services, SQL Server, Clean Architecture, DDD.
+  - *Core capabilities*: RESTful APIs for insurance policy management and risk scoring. Maintenance, security hardening, and incremental modernization of mission-critical business backends. Integration layer orchestrating multiple third-party enterprise providers (payment gateways, digital signature APIs, financial scoring services, cloud storage, and automated transactional document generation).
 
 ---
 
@@ -130,7 +130,7 @@ Open-source projects with source code, automated tests, and live demos:
 
 ## Contact
 
-Open to freelance engagements in software architecture, backend engineering, legacy .NET modernization, and deterministic conformance systems:
+Open to part-time, remote projects in software architecture, backend engineering, legacy .NET modernization, and deterministic conformance systems:
 
 - **Portfolio**: [www.naindev.com](https://www.naindev.com/)
 - **Email**: [contact@naindev.com](mailto:contact@naindev.com)
