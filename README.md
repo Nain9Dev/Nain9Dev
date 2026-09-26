@@ -41,7 +41,17 @@ All projects are engineered with verifiable evidence, automated test suites, and
 | **[Civil Service Examination Platform (TAI)](https://github.com/Nain9Dev/SistemaOposicionesTAI)** | .NET 10, C#, Dapper, SQL Server, React 19, TypeScript | **High-Throughput Assessment System.** Real-time examination evaluation engine executing official INAP scoring algorithms (+1.0 / -0.33) with sub-10ms query response times and responsive SPA interface. | [**Test Platform**](https://www.naindev.com/SistemaOposicionesTAI/)<br>[Source Code](https://github.com/Nain9Dev/SistemaOposicionesTAI) |
 | **[Driving School Financial & Ops Engine](https://github.com/Nain9Dev/Gestion-Autoescuela-Python)** | Python 3.12, Pydantic v2, SQLAlchemy, SQLite, Streamlit | **Operational & Ledger Dashboard.** Business accounting platform with deterministic financial validation, automatic balance reconciliations, and PDF invoice generation. | [**Launch Demo**](https://gestion-autoescuela-nain9dev.streamlit.app/)<br>[Source Code](https://github.com/Nain9Dev/Gestion-Autoescuela-Python) |
 
-> **Note on Commercial Projects:** In addition to public open-source systems, I architect and build proprietary multi-tenant platforms (PostgreSQL, version-concurrency, transactional event sourcing) and multi-domain deterministic conformance engines under private client engagements.
+---
+
+## Enterprise & Commercial Engineering (Private Contract Experience)
+
+Alongside my open-source work, I design and operate mission-critical architectures under private commercial contracts:
+
+- **Multi-Domain Deterministic Conformance Chassis**: Python 3.12 (`uv` Monorepo), FastAPI, Pydantic v2, PostgreSQL, Model Context Protocol (MCP), Pytest & Hypothesis.
+  - *Core Capabilities*: Binary stream parsing and byte-level validation of real-time 3D asset containers (IEEE-754 little-endian chunk extraction), exact computational geometry invariants (2D UV winding, polygon clipping, watertight manifold verification, differential texel density scaling), reproducible dual-contract audit reporting (canonical JSON + Markdown), and stdio MCP tooling for AI subagents.
+
+- **High-Concurrency Multi-Tenant Operations Platform**: Python 3.12, FastAPI, PostgreSQL, Async SQLAlchemy, Alembic, TypeScript, Docker.
+  - *Core Capabilities*: Zero-data-loss collaboration using entity `version` tracking and field-level merge resolution on HTTP 409 conflicts. Bulletproof data integrity via PostgreSQL primitives (`citext`, partial unique indexes, and atomic `activity_events` audit logging within single transactions). Zero-compute-cost operations on self-hosted environments backed by automated local CI runner fleets.
 
 ---
 
