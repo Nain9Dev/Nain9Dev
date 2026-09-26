@@ -45,13 +45,16 @@ All projects are engineered with verifiable evidence, automated test suites, and
 
 ## Enterprise & Commercial Engineering (Private Contract Experience)
 
-Alongside my open-source work, I design and operate mission-critical architectures under private commercial contracts:
+Alongside my open-source work, I design, modernize, and operate mission-critical architectures under private commercial contracts:
 
 - **Multi-Domain Deterministic Conformance Chassis**: Python 3.12 (`uv` Monorepo), FastAPI, Pydantic v2, PostgreSQL, Model Context Protocol (MCP), Pytest & Hypothesis.
   - *Core Capabilities*: Binary stream parsing and byte-level validation of real-time 3D asset containers (IEEE-754 little-endian chunk extraction), exact computational geometry invariants (2D UV winding, polygon clipping, watertight manifold verification, differential texel density scaling), reproducible dual-contract audit reporting (canonical JSON + Markdown), and stdio MCP tooling for AI subagents.
 
-- **High-Concurrency Multi-Tenant Operations Platform**: Python 3.12, FastAPI, PostgreSQL, Async SQLAlchemy, Alembic, TypeScript, Docker.
-  - *Core Capabilities*: Zero-data-loss collaboration using entity `version` tracking and field-level merge resolution on HTTP 409 conflicts. Bulletproof data integrity via PostgreSQL primitives (`citext`, partial unique indexes, and atomic `activity_events` audit logging within single transactions). Zero-compute-cost operations on self-hosted environments backed by automated local CI runner fleets.
+- **High-Concurrency Multi-Tenant Operations & Commercial Platform**: Python 3.12, FastAPI, PostgreSQL, Async SQLAlchemy, Alembic, Vue 3, TypeScript, Pinia, Tailwind CSS, Web Push (VAPID), Docker.
+  - *Core Capabilities*: Zero-data-loss collaboration using entity `version` tracking and field-level merge resolution on HTTP 409 conflicts. Bulletproof data integrity via PostgreSQL primitives (`citext`, partial unique indexes, and atomic `activity_events` audit logging within single transactions). Accessible modern frontend (WCAG 2.2 AA compliant, TipTap rich text, interactive 3D model viewers) and zero-compute-cost operations on self-hosted environments backed by automated local CI runner fleets.
+
+- **Enterprise Backend Architecture & Legacy .NET Modernization**: C#, .NET Framework (v4.7.2+) to Modern .NET, ASP.NET Web API, Azure Services, SQL Server, Clean/Multi-Tier Architecture.
+  - *Core Capabilities*: Maintenance, security hardening, and incremental modernization of mission-critical business backends. Robust integration layer orchestrating multiple third-party enterprise providers (payment gateways, digital signature APIs, financial scoring services, cloud storage, and automated transactional document generation).
 
 ---
 
