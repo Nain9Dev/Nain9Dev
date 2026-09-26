@@ -1,122 +1,134 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2563eb&center=true&vCenter=true&width=750&lines=Autonomous+Software+Architect;Full+Stack+Delivery+%7C+.NET+%26+Python;Deterministic+Product+Validation+(3D+%26+Specs);Enterprise+Backends+%26+Legacy+Modernization" alt="Typing Banner" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2563eb&center=true&vCenter=true&width=750&lines=Freelance+Full+Stack+Software+Architect;Python+%26+.NET+Backends+%7C+Vue+3+Frontends;Deterministic+Validation+%26+Trustworthy+AI;MCP+%7C+Open+Core+%7C+Immutable+Contracts" alt="Freelance Full Stack Software Architect" />
 
   <p align="center">
     <strong>Aitor Nain Mendoza Vallejo (naindev)</strong><br />
-    Madrid, Spain &bull; Autonomous Software Architect &bull; Full Stack: .NET & Python, Deterministic Validation & Production AI
+    Madrid, Spain &bull; Freelance Full Stack Software Architect &bull; CTO at Contrast3D x NainDev
   </p>
 
   <p align="center">
-    <a href="https://www.naindev.com/"><img src="https://img.shields.io/badge/Official_Portfolio-naindev.com-2563eb?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Web Portfolio" /></a>
+    <a href="https://www.naindev.com/"><img src="https://img.shields.io/badge/Portfolio-naindev.com-2563eb?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" /></a>
     <a href="https://www.linkedin.com/in/aitor-nain-mendoza-vallejo/"><img src="https://img.shields.io/badge/LinkedIn-Aitor_Nain-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    <a href="mailto:contact@naindev.com"><img src="https://img.shields.io/badge/Direct_Contact-contact@naindev.com-10B981?style=for-the-badge&logo=mail.ru&logoColor=white" alt="Email" /></a>
+    <a href="mailto:contact@naindev.com"><img src="https://img.shields.io/badge/Email-contact@naindev.com-10B981?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email" /></a>
   </p>
 </div>
 
 ---
 
-## Architectural Profile & Core Focus
+## About
 
-I design, build, and deliver complete software products—spanning robust database modeling, high-throughput backend systems (.NET and Python), and accessible modern frontends. My focus centers on **deterministic validation of market products (technical specifications, 3D assets, and data integrity), enterprise backend architectures, legacy .NET modernization, and production AI integrations**.
+I am a full stack software architect with a backend focus. I specialize in **critical systems, trustworthy AI, and deterministic validation**, including the validation of 3D models.
 
-### Engineering Pillars
+I deliver the complete product (data model, backend, and frontend) and integrate AI through **human-in-the-loop MCP tooling**, on **Open Core** architectures with clean code and immutable contracts.
 
-- **Deterministic Validation & Conformance**: Deterministic product validation engines, 3D asset & geometry verification against industry standards (topology, watertightness, texel density), Boundary Representation (B-Rep) solid modeling via OpenCASCADE, and canonical audit reporting.
-- **Enterprise Backend Architecture & Legacy Modernization**: Clean Architecture, Domain-Driven Design (DDD), and CQRS across ASP.NET Core and FastAPI. Modernizing legacy .NET systems, high-throughput microservices, and resilient message-driven pipelines.
-- **Full Stack & High-Performance Persistence**: Complete product ownership from relational design and auditing to client-side delivery. Multi-tenant isolation, transactional event logging, and strict optimistic concurrency control (PostgreSQL, SQL Server). Accessible, high-performance web frontends (Vue 3, TypeScript, Astro, WCAG 2.2 AA).
-- **Production AI & Autonomous Integrations**: Deterministic parameter extraction, robust offline rule-based fallbacks alongside LLMs, and fail-closed Pydantic/OpenAPI contracts.
+**What I bring to a team or client:**
+
+- **Python and .NET at the same level.** Python (FastAPI, Pydantic v2) for AI, validation, data, and 3D. .NET (ASP.NET Core) for business APIs and Microsoft-based clients.
+- **End-to-end ownership.** PostgreSQL or SQL Server schemas, async APIs, accessible Vue 3 frontends (WCAG 2.2 AA), CI/CD, and deployment on Linux VPS or Azure.
+- **Verifiable delivery.** Spec-driven development, property-based testing, and traceability from each requirement to the test that proves it.
+- **Legacy modernization.** Incremental migration of .NET Framework backends to modern .NET without stopping the business.
 
 ---
 
-## Flagship Systems & Live Verifiable Deployments
+## Current Work (Private Contracts)
 
-All projects are engineered with verifiable evidence, automated test suites, and 1-click cloud demonstrations:
+My main work runs under private commercial contracts, so the code is not public. These are the systems I lead, in order of focus, described by architecture and stack only:
 
-| System / Repository | Primary Stack | Architecture & Verification | Live Demonstration |
+- **Multi-Domain Deterministic Conformance Chassis**: Python 3.12 (`uv` monorepo), FastAPI, Pydantic v2, PostgreSQL, Model Context Protocol (MCP), pytest & Hypothesis.
+  - *Core capabilities*: Binary stream parsing and byte-level validation of real-time 3D asset containers (IEEE-754 little-endian chunk extraction), exact computational geometry invariants (2D UV winding, polygon clipping, watertight manifold verification, differential texel density scaling), reproducible dual-contract audit reporting (canonical JSON + Markdown), and stdio MCP tooling for AI subagents.
+
+- **High-Concurrency Multi-Tenant Operations & Commercial Platform**: Python 3.12, FastAPI, PostgreSQL, async SQLAlchemy, Alembic, Vue 3, TypeScript, Pinia, Tailwind CSS, Web Push (VAPID), Docker.
+  - *Core capabilities*: Zero-data-loss collaboration using entity `version` tracking and field-level merge resolution on HTTP 409 conflicts. Data integrity enforced by PostgreSQL primitives (`citext`, partial unique indexes, and atomic `activity_events` audit logging within single transactions). Accessible frontend (WCAG 2.2 AA, TipTap rich text, interactive 3D model viewers) and near-zero compute cost on self-hosted environments backed by local CI runner fleets.
+
+- **Enterprise Backend Architecture & Legacy .NET Modernization**: C#, .NET Framework (4.7.2+) to modern .NET, ASP.NET Web API, Azure services, SQL Server, Clean/multi-tier architecture.
+  - *Core capabilities*: Maintenance, security hardening, and incremental modernization of mission-critical business backends. Integration layer orchestrating multiple third-party enterprise providers (payment gateways, digital signature APIs, financial scoring services, cloud storage, and automated transactional document generation).
+
+---
+
+## Public Reference Projects
+
+Open-source projects with source code, automated tests, and live demos:
+
+| Project | Stack | What it demonstrates | Links |
 |---|---|---|---|
-| **[ParametriCAD AI](https://github.com/Nain9Dev/parametricad-ai)** | Python 3.12, FastAPI, OpenCASCADE, CadQuery, Three.js, React 19, TypeScript, Docker | **Deterministic CAD Engine & 3D Web Viewer.** Constructs exact B-Rep solids, enforces physical fabricability invariants, verifies topological mesh quality (watertightness, 2-manifoldness, normal orientation), and exports 5 engineering formats (GLB, glTF, STEP, STL, DXF) with SHA-256 content addressing. 261 automated tests including Hypothesis property-based testing. | [**Open 3D App**](https://parametricad.naindev.com)<br>[Source Code](https://github.com/Nain9Dev/parametricad-ai) |
-| **[Microservice Notifications Core](https://github.com/Nain9Dev/Microservicio-Notificaciones)** | .NET 10, C#, MassTransit, RabbitMQ, MailKit, Clean Architecture, Docker | **Sub-50ms Asynchronous Dispatcher.** Decoupled notification microservice built on message queues with dead-letter exchanges, exponential backoff retries, and cluster isolation. | [**Interactive Demo**](https://www.naindev.com/#demo-notificaciones)<br>[Source Code](https://github.com/Nain9Dev/Microservicio-Notificaciones) |
-| **[Financial Policy Operations API](https://github.com/Nain9Dev/API-Gestion-Financiera)** | .NET 10, C#, EF Core 10, SQL Server, Clean Architecture, DDD, Azure | **Enterprise Lifecycle Engine.** Manages insurance policy state transitions (`Draft -> Active -> Cancelled`), tenant isolation, and strict optimistic concurrency control via ETags. | [**Live Swagger API**](https://nain-policy-demo-api.azurewebsites.net/demo/)<br>[Source Code](https://github.com/Nain9Dev/API-Gestion-Financiera) |
-| **[NainOrder Core API](https://github.com/Nain9Dev/NainOrder)** | .NET 10, C#, EF Core 10, SQL Server, Clean Architecture, CQRS, DDD | **E-Commerce Transactional Core.** Domain-driven order processing engine with CQRS pattern, aggregate boundaries, optimistic locking, and clean architectural separation. | [**Source Code**](https://github.com/Nain9Dev/NainOrder) |
-| **[Civil Service Examination Platform (TAI)](https://github.com/Nain9Dev/SistemaOposicionesTAI)** | .NET 10, C#, Dapper, SQL Server, React 19, TypeScript | **High-Throughput Assessment System.** Real-time examination evaluation engine executing official INAP scoring algorithms (+1.0 / -0.33) with sub-10ms query response times and responsive SPA interface. | [**Test Platform**](https://www.naindev.com/SistemaOposicionesTAI/)<br>[Source Code](https://github.com/Nain9Dev/SistemaOposicionesTAI) |
-| **[Driving School Financial & Ops Engine](https://github.com/Nain9Dev/Gestion-Autoescuela-Python)** | Python 3.12, Pydantic v2, SQLAlchemy, SQLite, Streamlit | **Operational & Ledger Dashboard.** Business accounting platform with deterministic financial validation, automatic balance reconciliations, and PDF invoice generation. | [**Launch Demo**](https://gestion-autoescuela-nain9dev.streamlit.app/)<br>[Source Code](https://github.com/Nain9Dev/Gestion-Autoescuela-Python) |
+| **[ParametriCAD AI](https://github.com/Nain9Dev/parametricad-ai)** | Python 3.12, FastAPI, OpenCASCADE, CadQuery, Three.js, React 19, TypeScript, Docker | **Deterministic CAD engine and 3D web viewer.** Builds exact B-Rep solids, enforces fabricability invariants, verifies mesh topology (watertightness, 2-manifoldness, normal orientation), and exports GLB, glTF, STEP, STL, and DXF with SHA-256 content addressing. 261 automated tests, including Hypothesis property-based tests. | [**Live app**](https://parametricad.naindev.com)<br>[Source](https://github.com/Nain9Dev/parametricad-ai) |
+| **[Financial Policy Operations API](https://github.com/Nain9Dev/API-Gestion-Financiera)** | .NET 10, C#, EF Core 10, SQL Server, Clean Architecture, DDD, Azure | **Enterprise lifecycle engine.** Insurance policy state transitions (`Draft -> Active -> Cancelled`), tenant isolation, and optimistic concurrency control via ETags. | [**Live Swagger**](https://nain-policy-demo-api.azurewebsites.net/demo/)<br>[Source](https://github.com/Nain9Dev/API-Gestion-Financiera) |
+| **[Civil Service Examination Platform (TAI)](https://github.com/Nain9Dev/SistemaOposicionesTAI)** | .NET 10, C#, Dapper, SQL Server, React 19, TypeScript | **Assessment system.** Exam evaluation engine applying the official INAP scoring rules (+1.0 / -0.33) with a responsive SPA. | [**Live demo**](https://www.naindev.com/SistemaOposicionesTAI/)<br>[Source](https://github.com/Nain9Dev/SistemaOposicionesTAI) |
+| **[NainOrder Core API](https://github.com/Nain9Dev/NainOrder)** | .NET 10, C#, EF Core 10, SQL Server, Clean Architecture, CQRS, DDD | **E-commerce transactional core.** Order processing with CQRS, aggregate boundaries, and optimistic locking. | [Source](https://github.com/Nain9Dev/NainOrder) |
+| **[Notifications Microservice](https://github.com/Nain9Dev/Microservicio-Notificaciones)** | .NET 10, C#, MassTransit, RabbitMQ, MailKit, Docker | **Asynchronous dispatcher.** Message-driven notification service with dead-letter exchanges and exponential backoff retries. | [**Live demo**](https://www.naindev.com/#demo-notificaciones)<br>[Source](https://github.com/Nain9Dev/Microservicio-Notificaciones) |
+| **[Driving School Operations Engine](https://github.com/Nain9Dev/Gestion-Autoescuela-Python)** | Python 3.12, Pydantic v2, SQLAlchemy, SQLite, Streamlit | **Operations and ledger dashboard.** Accounting with deterministic financial validation, balance reconciliation, and PDF invoice generation. | [**Live demo**](https://gestion-autoescuela-nain9dev.streamlit.app/)<br>[Source](https://github.com/Nain9Dev/Gestion-Autoescuela-Python) |
 
 ---
 
-## Enterprise & Commercial Engineering (Private Contract Experience)
+## Tech Stack
 
-Alongside my open-source work, I design, modernize, and operate mission-critical architectures under private commercial contracts:
-
-- **Multi-Domain Deterministic Conformance Chassis**: Python 3.12 (`uv` Monorepo), FastAPI, Pydantic v2, PostgreSQL, Model Context Protocol (MCP), Pytest & Hypothesis.
-  - *Core Capabilities*: Binary stream parsing and byte-level validation of real-time 3D asset containers (IEEE-754 little-endian chunk extraction), exact computational geometry invariants (2D UV winding, polygon clipping, watertight manifold verification, differential texel density scaling), reproducible dual-contract audit reporting (canonical JSON + Markdown), and stdio MCP tooling for AI subagents.
-
-- **High-Concurrency Multi-Tenant Operations & Commercial Platform**: Python 3.12, FastAPI, PostgreSQL, Async SQLAlchemy, Alembic, Vue 3, TypeScript, Pinia, Tailwind CSS, Web Push (VAPID), Docker.
-  - *Core Capabilities*: Zero-data-loss collaboration using entity `version` tracking and field-level merge resolution on HTTP 409 conflicts. Bulletproof data integrity via PostgreSQL primitives (`citext`, partial unique indexes, and atomic `activity_events` audit logging within single transactions). Accessible modern frontend (WCAG 2.2 AA compliant, TipTap rich text, interactive 3D model viewers) and zero-compute-cost operations on self-hosted environments backed by automated local CI runner fleets.
-
-- **Enterprise Backend Architecture & Legacy .NET Modernization**: C#, .NET Framework (v4.7.2+) to Modern .NET, ASP.NET Web API, Azure Services, SQL Server, Clean/Multi-Tier Architecture.
-  - *Core Capabilities*: Maintenance, security hardening, and incremental modernization of mission-critical business backends. Robust integration layer orchestrating multiple third-party enterprise providers (payment gateways, digital signature APIs, financial scoring services, cloud storage, and automated transactional document generation).
-
----
-
-## Technical Stack & Tooling
+| Area | Default choice | Also in production experience |
+|---|---|---|
+| **Languages** | Python, C#, TypeScript, SQL | |
+| **Backend (Python)** | FastAPI, Pydantic v2, async SQLAlchemy, Alembic | Streamlit, OpenCASCADE / CadQuery |
+| **Backend (.NET)** | ASP.NET Core Web API, Clean Architecture, EF Core, Dapper for heavy reads | .NET Framework, ASP.NET Web API 2 / MVC 5, stored procedures |
+| **Frontend** | Vue 3, TypeScript, Pinia, Vite, Tailwind CSS, Astro | React 19, Three.js / WebGL, Razor + jQuery |
+| **Data** | PostgreSQL, SQL Server | SQLite, Redis |
+| **AI integration** | Model Context Protocol (MCP), human-in-the-loop workflows, fail-closed contracts | Local LLMs (Ollama) |
+| **Testing** | pytest + Hypothesis, xUnit v3, Vitest + Playwright, Testcontainers | |
+| **Infrastructure** | Docker / Compose, GitHub Actions (self-hosted runners), Linux VPS, Azure | RabbitMQ / MassTransit |
 
 <div align="center">
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
-  <img src="https://img.shields.io/badge/.NET_10-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET 10" />
-  <img src="https://img.shields.io/badge/Python_3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white" alt="Pydantic" />
+  <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="C#" />
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Vue.js_3-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue 3" />
-  <img src="https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white" alt="Astro" />
   <br />
+  <img src="https://img.shields.io/badge/Vue.js_3-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue 3" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white" alt="Astro" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Microsoft_SQL_Server-CC292B?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
+  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge" alt="SQL Server" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white" alt="RabbitMQ" />
-  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white" alt="Three.js" />
-  <img src="https://img.shields.io/badge/OpenCASCADE-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="OpenCASCADE" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
 </div>
-
-<br />
 
 ```text
 +-----------------------------------------------------------------------------------+
-|                            Presentation & Ingestion                               |
-|   Vue 3 / TypeScript | Astro | React 19 (Three.js / WebGL) | OpenAPI / REST       |
+|                                  Presentation                                     |
+|   Vue 3 + TypeScript (WCAG 2.2 AA) | Astro | Three.js / WebGL 3D viewers          |
++-----------------------------------------+-----------------------------------------+
+                                          |  OpenAPI contracts
++-----------------------------------------v-----------------------------------------+
+|                                  Application                                      |
+|   FastAPI | ASP.NET Core | MCP tools with human-in-the-loop approval              |
 +-----------------------------------------+-----------------------------------------+
                                           |
 +-----------------------------------------v-----------------------------------------+
-|                        Application Orchestration & Ports                          |
-|   Spec-Driven Pipelines | Clean Architecture | CQRS Mediators | MassTransit Queues|
+|                                    Domain                                         |
+|   Deterministic invariants | Immutable contracts (Pydantic v2 / C# records)       |
 +-----------------------------------------+-----------------------------------------+
                                           |
 +-----------------------------------------v-----------------------------------------+
-|                            Domain Core & Pure Logic                               |
-|   Deterministic Conformance       | Boundary Invariants | Pydantic Contracts      |
-+-----------------------------------------+-----------------------------------------+
-                                          |
-+-----------------------------------------v-----------------------------------------+
-|                        Infrastructure & External Adapters                         |
-|   PostgreSQL (citext/version) | SQL Server | OpenCASCADE | Docker | GitHub Actions  |
+|                                 Infrastructure                                    |
+|   PostgreSQL | SQL Server | Docker | GitHub Actions | Linux VPS | Azure           |
 +-----------------------------------------------------------------------------------+
 ```
 
 ---
 
-## Methodology & Architectural Principles
+## How I Work
 
-1. **Spec-Driven Development (SDD)**: Changes originate in explicit specifications (`charter`, `requirements` in EARS format, `architecture` with Mermaid diagrams, `data-model`, `ADRs`, and `traceability`), never directly in unconstrained code.
-2. **Deterministic Quality & Zero Assumptions**: All geometric invariants, market specifications, and business rules are validated by automated property-based test suites. No capability is claimed without reproducible automated verification.
-3. **Decoupled Domain Layers**: The presentation layer captures input and renders responses; it never calculates business logic, enforces business invariants, or accesses persistence.
-4. **Resilient & Cost-Conscious Infrastructure**: Low-overhead architectures designed for minimal compute footprints, high cache hit rates (content addressing), and horizontal process isolation over unsafe threading.
+1. **Spec-driven development**: Every change starts in a specification (charter, EARS requirements, architecture with Mermaid diagrams, data model, ADRs, and traceability), never directly in code.
+2. **Nothing claimed without a test**: Business rules and geometric invariants are covered by automated and property-based tests. A requirement without a test is not done.
+3. **Strict layer boundaries**: The frontend presents and the backend decides. Business logic lives in the domain and services; data access lives only in repositories.
+4. **Immutable public contracts**: APIs, schemas, and reports are versioned contracts. Breaking changes are explicit and documented.
+5. **Human-in-the-loop AI**: AI agents act through MCP tools with deterministic checks and human approval, and fail closed when uncertain.
+6. **Open Core and cost awareness**: Free and open-source tooling for demos and proofs of concept; production costs are evaluated against each product's business model.
 
 ---
 
-## Contact & Technical Consulting
+## Contact
 
-Available for independent software architecture consulting, enterprise backend engineering, and deterministic computational systems:
+Open to freelance engagements in software architecture, backend engineering, legacy .NET modernization, and deterministic validation systems:
 
-- **Portfolio & Case Studies**: [www.naindev.com](https://www.naindev.com/)
+- **Portfolio**: [www.naindev.com](https://www.naindev.com/)
 - **Email**: [contact@naindev.com](mailto:contact@naindev.com)
 - **LinkedIn**: [Aitor Nain Mendoza Vallejo](https://www.linkedin.com/in/aitor-nain-mendoza-vallejo/)
-- **GitHub**: [github.com/Nain9Dev](https://github.com/Nain9Dev)
