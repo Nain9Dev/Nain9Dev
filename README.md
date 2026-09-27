@@ -50,22 +50,27 @@ My main work is not public. The first two systems I lead under my NainDev brand,
 
 ## Public Reference Projects
 
-Open-source projects with source code, automated tests, and live demos:
+Open-source projects with source code and automated tests. Live demos where available:
 
 | Project | Stack | What it demonstrates | Links |
 |---|---|---|---|
-| **[ParametriCAD AI](https://github.com/Nain9Dev/parametricad-ai)** | Python 3.12, FastAPI, OpenCASCADE, CadQuery, Three.js, React 19, TypeScript, Docker | **Deterministic CAD engine and 3D web viewer.** Builds exact B-Rep solids, enforces fabricability invariants, verifies mesh topology (watertightness, 2-manifoldness, normal orientation), and exports GLB, glTF, STEP, STL, and DXF with SHA-256 content addressing. 261 automated tests, including Hypothesis property-based tests. | [**Live app**](https://parametricad.naindev.com)<br>[Source](https://github.com/Nain9Dev/parametricad-ai) |
-| **[Financial Policy Operations API](https://github.com/Nain9Dev/API-Gestion-Financiera)** | .NET 10, C#, EF Core 10, SQL Server, Clean Architecture, DDD, Azure | **Enterprise lifecycle engine.** Insurance policy state transitions (`Draft -> Active -> Cancelled`), tenant isolation, and optimistic concurrency control via ETags. | [**Live Swagger**](https://nain-policy-demo-api.azurewebsites.net/demo/)<br>[Source](https://github.com/Nain9Dev/API-Gestion-Financiera) |
-| **[Civil Service Examination Platform (TAI)](https://github.com/Nain9Dev/SistemaOposicionesTAI)** | .NET 10, C#, Dapper, SQL Server, React 19, TypeScript | **Assessment system.** Exam evaluation engine applying the official INAP scoring rules (+1.0 / -0.33) with a responsive SPA. | [**Live demo**](https://www.naindev.com/SistemaOposicionesTAI/)<br>[Source](https://github.com/Nain9Dev/SistemaOposicionesTAI) |
-| **[NainOrder Core API](https://github.com/Nain9Dev/NainOrder)** | .NET 10, C#, EF Core 10, SQL Server, Clean Architecture, CQRS, DDD | **E-commerce transactional core.** Order processing with CQRS, aggregate boundaries, and optimistic locking. | [Source](https://github.com/Nain9Dev/NainOrder) |
-| **[Notifications Microservice](https://github.com/Nain9Dev/Microservicio-Notificaciones)** | .NET 10, C#, MassTransit, RabbitMQ, MailKit, Docker | **Asynchronous dispatcher.** Message-driven notification service with dead-letter exchanges and exponential backoff retries. | [**Live demo**](https://www.naindev.com/#demo-notificaciones)<br>[Source](https://github.com/Nain9Dev/Microservicio-Notificaciones) |
-| **[Driving School Operations Engine](https://github.com/Nain9Dev/Gestion-Autoescuela-Python)** | Python 3.12, Pydantic v2, SQLAlchemy, SQLite, Streamlit | **Operations and ledger dashboard.** Accounting with deterministic financial validation, balance reconciliation, and PDF invoice generation. | [**Live demo**](https://gestion-autoescuela-nain9dev.streamlit.app/)<br>[Source](https://github.com/Nain9Dev/Gestion-Autoescuela-Python) |
+| **[ParametriCAD AI](https://github.com/Nain9Dev/parametricad-ai)** | Python 3.12, FastAPI, OpenCASCADE, CadQuery, Three.js, React 19, TypeScript, Docker | **Deterministic CAD engine and 3D web viewer.** Builds exact B-Rep solids, verifies mesh topology (watertightness, 2-manifoldness, outward normals), and exports GLB, glTF, STEP, STL, and DXF with SHA-256 content addressing. Property-based tests with Hypothesis. | [**Live app**](https://parametricad.naindev.com)<br>[Source](https://github.com/Nain9Dev/parametricad-ai) |
+| **[Insurance Policy Operations API](https://github.com/Nain9Dev/API-Gestion-Financiera)** | .NET 10, C#, EF Core 10, SQL Server, Azure | **Policy lifecycle engine.** State transitions (`Draft -> Active -> Cancelled`), per-organization isolation, JWT roles, and optimistic concurrency with rowversion, ETag, and If-Match. Synthetic data only. | [**Live Swagger**](https://nain-policy-demo-api.azurewebsites.net/demo/)<br>[Source](https://github.com/Nain9Dev/API-Gestion-Financiera) |
+| **TAI Civil Service Exam Simulator** | .NET 10, C#, Dapper, PostgreSQL, React 19, TypeScript | **Assessment system.** Server-side marking with the official INAP scale (+1 / -0.33 / 0), HttpOnly cookie sessions with CSRF protection, and a web client with an offline queue. | [**Live demo**](https://tai.naindev.com)<br>[API source](https://github.com/Nain9Dev/SistemaOposicionesTAI)<br>[Client source](https://github.com/Nain9Dev/tai-study-system-js) |
+| **[NainOrder](https://github.com/Nain9Dev/NainOrder)** | .NET 10, C#, ASP.NET Core, EF Core, SQLite, xUnit | **E-commerce order engine.** Clean Architecture, tactical DDD, and read-side CQRS; stock reserved in the same transaction as the order, optimistic concurrency (409), and RFC 7807 errors. | [**Live API**](https://nainorder.onrender.com/index.html)<br>[Source](https://github.com/Nain9Dev/NainOrder) |
+| **[Notifications Microservice](https://github.com/Nain9Dev/Microservicio-Notificaciones)** | .NET 10, C#, MassTransit, RabbitMQ, Docker | **Asynchronous email dispatch.** HTTP gateway separated from the worker, Outlook-safe templates, PII masking in logs, rate limiting, and scale-out with RabbitMQ workers. | [Source](https://github.com/Nain9Dev/Microservicio-Notificaciones) (Docker demo) |
+| **[Driving School Billing Engine](https://github.com/Nain9Dev/Gestion-Autoescuela-Python)** | Python 3.12, Pydantic v2, SQLAlchemy, SQLite, Streamlit | **Deterministic billing.** Decimal amounts with explicit rounding, totals that reconcile with no tolerance, and DNI/NIE check-letter validation. | [**Live demo**](https://gestion-autoescuela-nain9dev.streamlit.app/)<br>[Source](https://github.com/Nain9Dev/Gestion-Autoescuela-Python) |
+| **[NainConfigurator](https://github.com/Nain9Dev/NainConfigurator)** | C#, ASP.NET Core, React, TypeScript, SQL Server | **Catalog-driven B2B product configurator.** Multi-company isolation, server-side validation and pricing, and a full quote flow even without the 3D viewer. Technical demo in preparation. | [Source](https://github.com/Nain9Dev/NainConfigurator) |
+| **[Orbe Runner 3D](https://github.com/Nain9Dev/orbe-runner-3d)** | TypeScript, Three.js, Web Audio, Vite, Vitest | **3D arcade runner without a game engine.** Custom ECS, procedural models and audio, and levels checked for reachability before they are built. | [**Play**](https://orbe.naindev.com)<br>[Source](https://github.com/Nain9Dev/orbe-runner-3d) |
+| **[Pong Arcade 3D](https://github.com/Nain9Dev/pong-arcade-js)** | TypeScript, Three.js, Web Audio, Vite | **3D browser game.** Continuous collision detection, fixed-step simulation with render interpolation, and matches reproducible from a seed. | [**Play**](https://pong.naindev.com)<br>[Source](https://github.com/Nain9Dev/pong-arcade-js) |
+| **[GameHaven](https://github.com/Nain9Dev/GameHaven)** | .NET 10, C#, Blazor WebAssembly, SQLite | **Training project.** Indie game store with its own API, evolved from an earlier desktop version. | [**Live store**](https://nain9dev.github.io/GameHaven/)<br>[Source](https://github.com/Nain9Dev/GameHaven) |
+| **[HaveTickets](https://github.com/Nain9Dev/HaveTickets)** | .NET 10, C#, Blazor WebAssembly, ASP.NET Core | **Training project, in development.** Support ticketing system with a Minimal API. | [Source](https://github.com/Nain9Dev/HaveTickets) |
 
 ---
 
 ## Tech Stack
 
-| Area | Default choice | Also in production experience |
+| Area | Default choice | Also used |
 |---|---|---|
 | **Languages** | Python, C#, TypeScript, SQL | |
 | **Backend (Python)** | FastAPI, Pydantic v2, async SQLAlchemy, Alembic | Streamlit, OpenCASCADE / CadQuery |
@@ -73,7 +78,7 @@ Open-source projects with source code, automated tests, and live demos:
 | **Frontend** | Vue 3, TypeScript, Pinia, Vite, Tailwind CSS, Astro | React 19, Three.js / WebGL, Razor + jQuery |
 | **Data** | PostgreSQL, SQL Server | SQLite, Redis |
 | **AI integration** | Model Context Protocol (MCP), human-in-the-loop workflows, fail-closed contracts | Local LLMs (Ollama) |
-| **Testing** | pytest + Hypothesis, xUnit v3, Vitest + Playwright, Testcontainers | |
+| **Testing** | pytest + Hypothesis, xUnit v3, Vitest + Playwright, Testcontainers | NUnit |
 | **Infrastructure** | Docker / Compose, GitHub Actions (self-hosted runners), Linux VPS, Azure | RabbitMQ / MassTransit |
 
 <div align="center">
