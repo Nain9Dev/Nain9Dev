@@ -26,7 +26,7 @@ I deliver the complete product (data model, backend, and frontend) and integrate
 - **Python and .NET at the same level.** Python (FastAPI, Pydantic v2) for AI, validation, data, and 3D. .NET (ASP.NET Core) for business APIs and Microsoft-based clients.
 - **End-to-end ownership.** PostgreSQL or SQL Server schemas, async APIs, accessible Vue 3 frontends (WCAG 2.2 AA), CI/CD, and deployment on Linux VPS or Azure.
 - **Verifiable delivery.** Spec-driven development, property-based testing, and traceability from each requirement to the test that proves it.
-- **Legacy modernization.** Incremental migration of .NET Framework backends to modern .NET without stopping the business.
+- **Legacy modernization.** Maintenance, security hardening and incremental modernization of critical .NET Framework backends without stopping the business.
 
 ---
 
@@ -43,7 +43,7 @@ My main work is not public. The first two systems I lead under my NainDev brand,
 - **High-Concurrency Multi-Tenant Operations & Commercial Platform**: Python 3.12, FastAPI, PostgreSQL, async SQLAlchemy, Alembic, Vue 3, TypeScript, Pinia, Tailwind CSS, Web Push (VAPID), Docker.
   - *Core capabilities*: Zero-data-loss collaboration using entity `version` tracking and field-level merge resolution on HTTP 409 conflicts. Data integrity enforced by PostgreSQL primitives (`citext`, partial unique indexes, and atomic `activity_events` audit logging within single transactions). Accessible frontend (WCAG 2.2 AA, TipTap rich text, interactive 3D model viewers) and near-zero compute cost on self-hosted environments backed by local CI runner fleets.
 
-- **Insurance-Sector Backend & Legacy .NET Modernization (full-time role)**: C#, ASP.NET Core, .NET Framework (4.7.2+) to modern .NET, ASP.NET Web API, Azure services, SQL Server, Clean Architecture, DDD.
+- **Insurance-Sector Backend & Legacy .NET Modernization (full-time role)**: C#, .NET Framework, ASP.NET MVC 5, ASP.NET Web API 2, SQL Server, Dapper, Azure Storage, layered architecture.
   - *Core capabilities*: RESTful APIs for insurance policy management and risk scoring. Maintenance, security hardening, and incremental modernization of mission-critical business backends. Integration layer orchestrating multiple third-party enterprise providers (payment gateways, digital signature APIs, financial scoring services, cloud storage, and automated transactional document generation).
 
 ---
