@@ -3,10 +3,11 @@
 
   <p align="center">
     <strong>Aitor Nain Mendoza Vallejo (naindev)</strong><br />
-    Madrid, Spain &bull; Full Stack Software Architect &bull; CTO at Contrast3D x NainDev
+    Madrid, Spain &bull; Full Stack Software Architect &bull; CTO at <a href="https://github.com/naindev-contrast3d">Contrast3D x NainDev</a>
   </p>
 
   <p align="center">
+    <a href="https://github.com/naindev-contrast3d"><img src="https://img.shields.io/badge/Org-Contrast3D_x_NainDev-00FFE0?style=for-the-badge&logo=github&logoColor=black" alt="Contrast3D x NainDev" /></a>
     <a href="https://www.naindev.com/"><img src="https://img.shields.io/badge/Portfolio-naindev.com-2563eb?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" /></a>
     <a href="https://www.linkedin.com/in/aitor-nain-mendoza-vallejo/"><img src="https://img.shields.io/badge/LinkedIn-Aitor_Nain-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
     <a href="mailto:contact@naindev.com"><img src="https://img.shields.io/badge/Email-contact@naindev.com-10B981?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email" /></a>
