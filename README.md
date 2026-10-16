@@ -1,146 +1,116 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2563eb&center=true&vCenter=true&width=750&lines=Full+Stack+Software+Architect;Python+%26+.NET+Backends+%7C+Vue+3+Frontends;Deterministic+Product+Conformance+%26+Trustworthy+AI;MCP+%7C+Open+Core+%7C+Immutable+Contracts" alt="Full Stack Software Architect" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg" />
+    <img src="assets/banner-light.svg" alt="Aitor Nain Mendoza Vallejo, Full Stack Software Architect" width="100%" />
+  </picture>
 
-  <p align="center">
-    <strong>Aitor Nain Mendoza Vallejo (naindev)</strong><br />
-    Madrid, Spain &bull; Full Stack Software Architect &bull; CTO at <a href="https://github.com/naindev-contrast3d">Contrast3D x NainDev</a>
-  </p>
+  <p>Madrid, Spain &bull; CTO at <a href="https://github.com/naindev-contrast3d">Contrast3D x NainDev</a></p>
 
-  <p align="center">
-    <a href="https://github.com/naindev-contrast3d"><img src="https://img.shields.io/badge/Org-Contrast3D_x_NainDev-00FFE0?style=for-the-badge&logo=github&logoColor=black" alt="Contrast3D x NainDev" /></a>
+  <p>
     <a href="https://www.naindev.com/"><img src="https://img.shields.io/badge/Portfolio-naindev.com-2563eb?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" /></a>
     <a href="https://www.linkedin.com/in/aitor-nain-mendoza-vallejo/"><img src="https://img.shields.io/badge/LinkedIn-Aitor_Nain-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
     <a href="mailto:contact@naindev.com"><img src="https://img.shields.io/badge/Email-contact@naindev.com-10B981?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email" /></a>
+    <a href="https://github.com/naindev-contrast3d"><img src="https://img.shields.io/badge/Org-Contrast3D_x_NainDev-00FFE0?style=for-the-badge&logo=github&logoColor=black" alt="Contrast3D x NainDev" /></a>
   </p>
 </div>
 
----
+## What I build
 
-## About
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <b>Backends and APIs</b><br />
+      Python (FastAPI) and .NET (C#) services on PostgreSQL or SQL Server, with tested contracts. Also maintenance and incremental modernization of legacy .NET.
+    </td>
+    <td width="33%" valign="top">
+      <b>Deterministic validation</b><br />
+      3D and CAD checks that give the same verdict every time, with reproducible reports and AI tools that work under human oversight (MCP).
+    </td>
+    <td width="33%" valign="top">
+      <b>Complete web apps</b><br />
+      Accessible Vue 3 and TypeScript frontends (WCAG 2.2 AA), delivered with Docker and continuous integration.
+    </td>
+  </tr>
+</table>
 
-I am a full stack software architect with a backend focus. I specialize in **critical systems, trustworthy AI, and deterministic conformance**: architectures that validate products of any domain against explicit, versioned specifications, starting with 3D assets.
+## Featured projects
 
-I deliver the complete product (data model, backend, and frontend) and integrate AI through **human-in-the-loop MCP tooling**, on **Open Core** architectures with clean code and immutable contracts.
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a href="https://parametricad.naindev.com/"><img src="assets/projects/parametricad-ai.jpg" alt="ParametriCAD AI" /></a><br />
+      <b>ParametriCAD AI</b><br />
+      Deterministic CAD engine and 3D viewer. Exact solids, mesh topology checks, GLB, STEP and STL export.<br />
+      <a href="https://parametricad.naindev.com/">Live demo</a> &middot; <a href="https://github.com/Nain9Dev/parametricad-ai">Code</a>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://3d.naindev.com/"><img src="assets/projects/nain3d.jpg" alt="3D AI Conformance Demo" /></a><br />
+      <b>3D AI Conformance Demo</b><br />
+      3D asset validation gateway with byte-level checks and reproducible reports.<br />
+      <a href="https://3d.naindev.com/">Live demo</a> &middot; <a href="https://github.com/Nain9Dev/Nain3D">Code</a>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://prospect.naindev.com/"><img src="assets/projects/nainprospect.jpg" alt="NainProspect" /></a><br />
+      <b>NainProspect</b><br />
+      B2B prospecting gateway with AI categorization and a legal opt-out gate (FastAPI, Vue 3).<br />
+      <a href="https://prospect.naindev.com/">Live demo</a> &middot; <a href="https://github.com/Nain9Dev/NainProspect">Code</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <a href="https://order.naindev.com/"><img src="assets/projects/nainorder.jpg" alt="NainOrder" /></a><br />
+      <b>NainOrder</b><br />
+      E-commerce order engine on Clean Architecture, tactical DDD and CQRS (.NET).<br />
+      <a href="https://order.naindev.com/">Live demo</a> &middot; <a href="https://github.com/Nain9Dev/NainOrder">Code</a>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://notify.naindev.com/"><img src="assets/projects/nainnotify.jpg" alt="NainNotify" /></a><br />
+      <b>NainNotify</b><br />
+      Asynchronous email dispatch with the HTTP gateway separated from the worker (.NET, RabbitMQ).<br />
+      <a href="https://notify.naindev.com/">Live demo</a> &middot; <a href="https://github.com/Nain9Dev/NainNotify">Code</a>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://configurator.naindev.com/"><img src="assets/projects/nainconfigurator.jpg" alt="NainConfigurator" /></a><br />
+      <b>NainConfigurator</b><br />
+      Catalog-driven B2B product configurator with multi-company isolation (ASP.NET Core, React).<br />
+      <a href="https://configurator.naindev.com/">Live demo</a> &middot; <a href="https://github.com/Nain9Dev/NainConfigurator">Code</a>
+    </td>
+  </tr>
+</table>
 
-**What I bring to a team or client:**
+<details>
+<summary><b>More projects (8)</b></summary>
 
-- **Python and .NET at the same level.** Python (FastAPI, Pydantic v2) for AI, validation, data, and 3D. .NET (ASP.NET Core) for business APIs and Microsoft-based clients.
-- **End-to-end ownership.** PostgreSQL or SQL Server schemas, async APIs, accessible Vue 3 frontends (WCAG 2.2 AA), CI/CD, and deployment on Linux VPS or Azure.
-- **Verifiable delivery.** Spec-driven development, property-based testing, and traceability from each requirement to the test that proves it.
-- **Legacy modernization.** Maintenance, security hardening and incremental modernization of critical .NET Framework backends without stopping the business.
-
----
-
-## Current Work (Private Code)
-
-My main work is not public. The first two systems I lead under my NainDev brand, outside working hours; the third is my full-time role as a .NET developer in the insurance sector. They are listed in order of focus and described by architecture and stack only:
-
-- **Multi-Domain Deterministic Conformance Chassis (Open Core)**: Python 3.12 (`uv` monorepo), FastAPI, Pydantic v2, PostgreSQL, Model Context Protocol (MCP), pytest & Hypothesis, Docker, self-hosted CI.
-  - *Architecture*: A domain-agnostic conformance chassis that receives an artefact, identifies what it is, measures facts about it, proposes the objectives and profile that apply, validates it, directs its fail-closed correction, and emits a verdict that is reproducible byte-for-byte. Each market domain plugs in as a versioned profile from a frozen, persisted catalogue; the catalogue version is recorded in every verdict.
-  - *First profile, in production*: Real-time 3D assets (glTF/GLB). Binary stream parsing and byte-level container validation (IEEE-754 little-endian chunk extraction), exact computational geometry invariants (2D UV winding, polygon clipping, watertight manifold verification, differential texel density scaling), and a validate → repair → revalidate loop.
-  - *Next profile, specified*: Tabular fiscal documents (invoice arithmetic, mandatory legal fields, and tax ID check-digit algorithms), which proves the same engine works outside 3D.
-  - *Delivery*: Reproducible dual-contract audit reports (canonical JSON + human-readable Markdown), an HTTP service with OpenAPI, PostgreSQL persistence for stateful validation sessions, and stdio MCP tooling so AI agents run validations under human oversight.
-
-- **High-Concurrency Multi-Tenant Operations & Commercial Platform**: Python 3.12, FastAPI, PostgreSQL, async SQLAlchemy, Alembic, Vue 3, TypeScript, Pinia, Tailwind CSS, Web Push (VAPID), Docker.
-  - *Core capabilities*: Zero-data-loss collaboration using entity `version` tracking and field-level merge resolution on HTTP 409 conflicts. Data integrity enforced by PostgreSQL primitives (`citext`, partial unique indexes, and atomic `activity_events` audit logging within single transactions). Accessible frontend (WCAG 2.2 AA, TipTap rich text, interactive 3D model viewers) and near-zero compute cost on self-hosted environments backed by local CI runner fleets.
-
-- **Insurance-Sector Backend & Legacy .NET Modernization (full-time role)**: C#, .NET Framework, ASP.NET MVC 5, ASP.NET Web API 2, SQL Server, Dapper, Azure Storage, layered architecture.
-  - *Core capabilities*: RESTful APIs for insurance policy management and risk scoring. Maintenance, security hardening, and incremental modernization of mission-critical business backends. Integration layer orchestrating multiple third-party enterprise providers (payment gateways, digital signature APIs, financial scoring services, cloud storage, and automated transactional document generation).
-
----
-
-## Public Reference Projects
-
-Open-source projects with source code and automated tests. Live demos where available:
-
-| Project | Stack | What it demonstrates | Links |
-|---|---|---|---|
-| **[3D AI Conformance Demo](https://github.com/Nain9Dev/Nain3D)** | Python 3.12, FastAPI, Trimesh, OpenCASCADE, Vue 3, Three.js | **Deterministic 3D asset validation & conformance gateway.** Byte-level container validation, IEEE-754 chunk parsing, UV winding, and dual-contract reporting. | [**Live demo**](https://3d.naindev.com/)<br>[Source](https://github.com/Nain9Dev/Nain3D) |
-| **[ParametriCAD AI](https://github.com/Nain9Dev/parametricad-ai)** | Python 3.12, FastAPI, OpenCASCADE, CadQuery, Three.js, React 19, TypeScript, Docker | **Deterministic CAD engine and 3D web viewer.** Builds exact B-Rep solids, verifies mesh topology (watertightness, 2-manifoldness, outward normals), and exports GLB, glTF, STEP, STL, and DXF with SHA-256 content addressing. | [**Live app**](https://parametricad.naindev.com/)<br>[Source](https://github.com/Nain9Dev/parametricad-ai) |
-| **[Insurance Policy Operations API](https://github.com/Nain9Dev/NainPolicy)** | .NET 10, C#, EF Core 10, SQL Server, Vue 3 | **Policy lifecycle engine.** State transitions (`Draft -> Active -> Cancelled`), per-organization isolation, JWT roles, and optimistic concurrency with rowversion, ETag, and If-Match. | [**Live demo**](https://policy.naindev.com/)<br>[Source](https://github.com/Nain9Dev/NainPolicy) |
-| **[TAI Civil Service Exam Simulator](https://github.com/Nain9Dev/NainTAI)** | .NET 10, C#, Dapper, PostgreSQL, React 19, TypeScript | **Assessment system.** Server-side marking with the official INAP scale (+1 / -0.33 / 0), HttpOnly cookie sessions with CSRF protection, and a web client with an offline queue. | [**Live demo**](https://tai.naindev.com/)<br>[Source](https://github.com/Nain9Dev/NainTAI) |
-| **[NainOrder](https://github.com/Nain9Dev/NainOrder)** | .NET 10, C#, ASP.NET Core, EF Core, SQLite, xUnit | **E-commerce order engine.** Clean Architecture, tactical DDD, and read-side CQRS; stock reserved in the same transaction as the order, optimistic concurrency (409), and RFC 7807 errors. | [**Live demo**](https://order.naindev.com/)<br>[Source](https://github.com/Nain9Dev/NainOrder) |
-| **[Notifications Microservice](https://github.com/Nain9Dev/NainNotify)** | .NET 10, C#, MassTransit, RabbitMQ, Vue 3, Docker | **Asynchronous email dispatch.** HTTP gateway separated from the worker, Outlook-safe templates, PII masking in logs, rate limiting, and sub-50ms dispatch pipeline. | [**Live demo**](https://notify.naindev.com/)<br>[Source](https://github.com/Nain9Dev/NainNotify) |
-| **[Driving School Billing Engine](https://github.com/Nain9Dev/NainDrive)** | Python 3.12, Pydantic v2, SQLAlchemy, SQLite, Vue 3 + TS | **Deterministic billing.** Decimal amounts with explicit rounding, totals that reconcile with no tolerance, and DNI/NIE check-letter validation. | [**Live demo**](https://drive.naindev.com/)<br>[Source](https://github.com/Nain9Dev/NainDrive) |
-| **[NainConfigurator](https://github.com/Nain9Dev/NainConfigurator)** | C#, ASP.NET Core, React 19, TypeScript, SQL Server | **Catalog-driven B2B product configurator.** Multi-company isolation, rule-based BOM calculations, client-side compatibility evaluation, and full quote flow. | [**Live demo**](https://configurator.naindev.com/)<br>[Source](https://github.com/Nain9Dev/NainConfigurator) |
-| **[NainProspect](https://github.com/Nain9Dev/NainProspect)** | Python 3.12, FastAPI, Pydantic v2, Vue 3 + TS | **B2B prospecting & LSSI-CE compliance gateway.** Lead sourcing, AI categorization, deterministic cost metrics, and email outreach preview with legal opt-out gate. | [**Live demo**](https://prospect.naindev.com/)<br>[Source](https://github.com/Nain9Dev/NainProspect) |
-| **[NainWrite](https://github.com/Nain9Dev/NainWrite)** | Vanilla TypeScript, Web Workers, CSS3 | **Deterministic Spanish text rewriting workbench.** Semantic preservation checks, rule verification, and human review gate. | [**Live demo**](https://write.naindev.com/)<br>[Source](https://github.com/Nain9Dev/NainWrite) |
-| **[HaveTickets](https://github.com/Nain9Dev/HaveTickets)** | .NET 10, C#, Blazor WebAssembly, ASP.NET Core | **Cinema ticketing & seat reservation platform.** Clean Architecture, minor-unit arithmetic, and deterministic seat allocation. | [**Live demo**](https://tickets.naindev.com/)<br>[Source](https://github.com/Nain9Dev/HaveTickets) |
-| **[GameHaven](https://github.com/Nain9Dev/GameHaven)** | .NET 10, C#, Vue 3, TypeScript, SQLite | **Indie game digital storefront.** Architectural modernization from legacy desktop to modern web, with offline cart and library state. | [**Live store**](https://gamehaven.naindev.com/)<br>[Source](https://github.com/Nain9Dev/GameHaven) |
-| **[Orbe Runner 3D](https://github.com/Nain9Dev/Orbe3D)** | TypeScript, Three.js, Web Audio, Vite, Vitest | **3D arcade runner without a game engine.** Custom ECS, procedural models and audio, and levels checked for reachability before they are built. | [**Play**](https://orbe.naindev.com/)<br>[Source](https://github.com/Nain9Dev/Orbe3D) |
-| **[Pong Arcade 3D](https://github.com/Nain9Dev/PongArcade)** | TypeScript, Three.js, Web Audio, Vite | **3D browser game.** Continuous collision detection, fixed-step simulation with render interpolation, and matches reproducible from a seed. | [**Play**](https://pong.naindev.com/)<br>[Source](https://github.com/Nain9Dev/PongArcade) |
-
----
-
-## Tech Stack
-
-| Area | Default choice | Also used |
+| Project | What it is | Links |
 |---|---|---|
-| **Languages** | Python, C#, TypeScript, SQL | |
-| **Backend (Python)** | FastAPI, Pydantic v2, async SQLAlchemy, Alembic | Streamlit, OpenCASCADE / CadQuery |
-| **Backend (.NET)** | ASP.NET Core Web API, Clean Architecture, EF Core, Dapper for heavy reads | .NET Framework, ASP.NET Web API 2 / MVC 5, stored procedures |
-| **Frontend** | Vue 3, TypeScript, Pinia, Vite, Tailwind CSS, Astro | React 19, Three.js / WebGL, Razor + jQuery |
-| **Data** | PostgreSQL, SQL Server | SQLite, Redis |
-| **AI integration** | Model Context Protocol (MCP), human-in-the-loop workflows, fail-closed contracts | Local LLMs (Ollama) |
-| **Testing** | pytest + Hypothesis, xUnit v3, Vitest + Playwright, Testcontainers | NUnit |
-| **Infrastructure** | Docker / Compose, GitHub Actions (self-hosted runners), Linux VPS, Azure | RabbitMQ / MassTransit |
+| **NainPolicy** | Policy lifecycle API with per-organization isolation and optimistic concurrency (.NET 10, SQL Server, Vue 3). Uses synthetic data. | [Live](https://policy.naindev.com/) &middot; [Code](https://github.com/Nain9Dev/NainPolicy) |
+| **NainTAI** | Civil service exam simulator with server-side marking and an offline-capable client (.NET 10, PostgreSQL, React 19). | [Live](https://tai.naindev.com/) &middot; [Code](https://github.com/Nain9Dev/NainTAI) |
+| **NainDrive** | Deterministic billing engine with decimal arithmetic that reconciles exactly (Python, Vue 3). | [Live](https://drive.naindev.com/) &middot; [Code](https://github.com/Nain9Dev/NainDrive) |
+| **NainWrite** | Spanish text rewriting workbench with semantic preservation checks (TypeScript, Web Workers). | [Live](https://write.naindev.com/) &middot; [Code](https://github.com/Nain9Dev/NainWrite) |
+| **HaveTickets** | Cinema ticketing and seat reservation (.NET 10, Blazor WebAssembly). | [Live](https://tickets.naindev.com/) &middot; [Code](https://github.com/Nain9Dev/HaveTickets) |
+| **GameHaven** | Indie game storefront modernized from a desktop app to the web (.NET 10, Vue 3). | [Live](https://gamehaven.naindev.com/) &middot; [Code](https://github.com/Nain9Dev/GameHaven) |
+| **Orbe Runner 3D** | 3D arcade runner without a game engine (TypeScript, Three.js). | [Play](https://orbe.naindev.com/) &middot; [Code](https://github.com/Nain9Dev/Orbe3D) |
+| **Pong Arcade 3D** | Browser 3D game with reproducible matches (TypeScript, Three.js). | [Play](https://pong.naindev.com/) &middot; [Code](https://github.com/Nain9Dev/PongArcade) |
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white" alt="Pydantic" />
-  <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="C#" />
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <br />
-  <img src="https://img.shields.io/badge/Vue.js_3-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue 3" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white" alt="Astro" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge" alt="SQL Server" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-</div>
+</details>
 
-```text
-+-----------------------------------------------------------------------------------+
-|                                  Presentation                                     |
-|   Vue 3 + TypeScript (WCAG 2.2 AA) | Astro | Three.js / WebGL 3D viewers          |
-+-----------------------------------------+-----------------------------------------+
-                                          |  OpenAPI contracts
-+-----------------------------------------v-----------------------------------------+
-|                                  Application                                      |
-|   FastAPI | ASP.NET Core | MCP tools with human-in-the-loop approval              |
-+-----------------------------------------+-----------------------------------------+
-                                          |
-+-----------------------------------------v-----------------------------------------+
-|                                    Domain                                         |
-|   Deterministic invariants | Immutable contracts (Pydantic v2 / C# records)       |
-+-----------------------------------------+-----------------------------------------+
-                                          |
-+-----------------------------------------v-----------------------------------------+
-|                                 Infrastructure                                    |
-|   PostgreSQL | SQL Server | Docker | GitHub Actions | Linux VPS | Azure           |
-+-----------------------------------------------------------------------------------+
-```
+## Stack
 
----
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,fastapi,cs,dotnet,ts,vue,react,tailwind,astro,postgres,docker,githubactions,azure,threejs&amp;perline=14" alt="Python, FastAPI, C#, .NET, TypeScript, Vue, React, Tailwind CSS, Astro, PostgreSQL, Docker, GitHub Actions, Azure, Three.js" />
+</p>
 
-## How I Work
+<details>
+<summary><b>How I work</b></summary>
 
-1. **Spec-driven development**: Every change starts in a specification (charter, EARS requirements, architecture with Mermaid diagrams, data model, ADRs, and traceability), never directly in code.
-2. **Nothing claimed without a test**: Business rules and geometric invariants are covered by automated and property-based tests. A requirement without a test is not done.
-3. **Strict layer boundaries**: The frontend presents and the backend decides. Business logic lives in the domain and services; data access lives only in repositories.
-4. **Immutable public contracts**: APIs, schemas, and reports are versioned contracts. Breaking changes are explicit and documented.
-5. **Human-in-the-loop AI**: AI agents act through MCP tools with deterministic checks and human approval, and fail closed when uncertain.
-6. **Open Core and cost awareness**: Free and open-source tooling for demos and proofs of concept; production costs are evaluated against each product's business model.
+- **Spec first.** Every change starts in a specification, never directly in code.
+- **Nothing claimed without a test.** A requirement without a test that proves it is not done.
+- **Human in the loop.** AI agents act through MCP tools with deterministic checks and human approval, and fail closed when unsure.
 
----
+</details>
 
-## Contact
+## Work with me
 
-Open to part-time, remote projects in software architecture, backend engineering, legacy .NET modernization, and deterministic conformance systems:
+Open to part-time, remote projects in backend and API development, legacy .NET modernization and deterministic validation.
 
-- **Portfolio**: [www.naindev.com](https://www.naindev.com/)
-- **Email**: [contact@naindev.com](mailto:contact@naindev.com)
-- **LinkedIn**: [Aitor Nain Mendoza Vallejo](https://www.linkedin.com/in/aitor-nain-mendoza-vallejo/)
+**[contact@naindev.com](mailto:contact@naindev.com)** &middot; [naindev.com](https://www.naindev.com/) &middot; [LinkedIn](https://www.linkedin.com/in/aitor-nain-mendoza-vallejo/)
