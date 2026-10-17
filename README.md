@@ -33,6 +33,14 @@
   </tr>
 </table>
 
+## System Architecture & Engineering Standards
+
+The portfolio applications operate as an integrated platform of autonomous Bounded Contexts (DDD):
+
+- **[Enterprise Context Map & Topology](https://github.com/Nain9Dev/engineering-handbook/blob/main/architecture/enterprise-context-map.md)**: C4 Level 1/2 architectural blueprints, asynchronous domain event routing over RabbitMQ, and boundary contracts.
+- **[Architectural Fitness Functions](https://github.com/Nain9Dev/engineering-handbook/blob/main/architecture/fitness-functions.md)**: Automated CI checks (`NetArchTest` in .NET, AST inspection in Python) enforcing layer boundary isolation.
+- **[FinOps & Production Capacity Model](https://github.com/Nain9Dev/engineering-handbook/blob/main/architecture/finops-capacity-planning.md)**: Two-tier cost modeling from 0,00 EUR portfolio demonstration to 10k req/min enterprise production.
+
 ## Featured projects
 
 <table>
