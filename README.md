@@ -87,10 +87,12 @@ The portfolio applications operate as an integrated platform of autonomous Bound
 </table>
 
 <details>
-<summary><b>More projects (8)</b></summary>
+<summary><b>More projects (10)</b></summary>
 
 | Project | What it is | Links |
 |---|---|---|
+| **NainLegacyModernizer** | Zero-downtime legacy .NET modernization harness. Strangler Fig reverse proxying via YARP with dual-write shadow running (.NET 10). | [Code](https://github.com/Nain9Dev/NainLegacyModernizer) |
+| **nain-mcp-validator** | Standalone Model Context Protocol (MCP) server for deterministic 3D mesh invariant checks (C1-C10) and content addressing. | [Code](https://github.com/Nain9Dev/nain-mcp-validator) |
 | **NainPolicy** | Policy lifecycle API with per-organization isolation and optimistic concurrency (.NET 10, SQL Server, Vue 3). Uses synthetic data. | [Live](https://policy.naindev.com/) &middot; [Code](https://github.com/Nain9Dev/NainPolicy) |
 | **NainTAI** | Civil service exam simulator with server-side marking and an offline-capable client (.NET 10, PostgreSQL, React 19). | [Live](https://tai.naindev.com/) &middot; [Code](https://github.com/Nain9Dev/NainTAI) |
 | **NainDrive** | Deterministic billing engine with decimal arithmetic that reconciles exactly (Python, Vue 3). | [Live](https://drive.naindev.com/) &middot; [Code](https://github.com/Nain9Dev/NainDrive) |
