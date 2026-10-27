@@ -12,6 +12,11 @@
     <a href="mailto:contact@naindev.com"><img src="https://img.shields.io/badge/Email-contact@naindev.com-10B981?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email" /></a>
     <a href="https://github.com/naindev-contrast3d"><img src="https://img.shields.io/badge/Org-Contrast3D_x_NainDev-00FFE0?style=for-the-badge&logo=github&logoColor=black" alt="Contrast3D x NainDev" /></a>
   </p>
+
+  <p>
+    <a href="#"><img src="https://img.shields.io/badge/Language-English-blue.svg" alt="Language: English" /></a>
+    <a href="README.es.md"><img src="https://img.shields.io/badge/Versi%C3%B3n-Espa%C3%B1ol-red.svg" alt="Versión en Español" /></a>
+  </p>
 </div>
 
 ## What I build
